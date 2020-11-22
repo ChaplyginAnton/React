@@ -1,0 +1,41 @@
+Microsoft Windows [Version 6.3.9600]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2013. Все права защищены.
+
+D:\react_lessons>npm_start
+"npm_start" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+D:\react_lessons>npm start
+
+> react_lessons@0.1.0 start D:\react_lessons
+> react-scripts start
+
+internal/modules/cjs/loader.js:548
+  throw e;
+  ^
+
+Error: Package exports for 'D:\react_lessons\node_modules\postcss-safe-parser\node_modules\postcss' do not define a valid '.' target
+<[90m    at resolveExportsTarget (internal/modules/cjs/loader.js:545:13)<[39m
+<[90m    at applyExports (internal/modules/cjs/loader.js:459:14)<[39m
+<[90m    at resolveExports (internal/modules/cjs/loader.js:508:12)<[39m
+<[90m    at Function.Module._findPath (internal/modules/cjs/loader.js:577:20)<[39m
+<[90m    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:879:27)<[39m
+<[90m    at Function.Module._load (internal/modules/cjs/loader.js:785:27)<[39m
+<[90m    at Module.require (internal/modules/cjs/loader.js:956:19)<[39m
+<[90m    at require (internal/modules/cjs/helpers.js:74:18)<[39m
+    at Object.<anonymous> (D:\react_lessons\node_modules\<[4mpostcss-safe-parser<[24m\lib\safe-parse.js:1:17)
+<[90m    at Module._compile (internal/modules/cjs/loader.js:1063:30)<[39m {
+  code: <[32m'MODULE_NOT_FOUND'<[39m
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! react_lessons@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the react_lessons@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\User\AppData\Roaming\npm-cache\_logs\2020-11-22T12_01_44_964Z-debug.log
+
+D:\react_lessons>
